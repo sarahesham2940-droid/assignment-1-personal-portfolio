@@ -1,0 +1,264 @@
+img {
+    width: 20%;
+}
+
+.one {
+    width: 70%;
+    background-color: rgb(113, 113, 228);
+    margin: auto;
+    text-align: center;
+}
+
+div .white {
+    color: white;
+}
+
+body {
+    background-color: #f2f5f9;
+    font-family: Arial, sans-serif;
+}
+.one {
+    width: 70%;
+    background-color: #1c497a;
+    margin: 30px auto;
+    text-align: center;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.one h1 {
+    font-size: 48px;
+    color: white;
+}
+
+.one h2 {
+    color: #d5e5ff;
+    margin-bottom: 40px;
+}
+
+div .white {
+    color: white;
+}
+
+.white.padding {
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 5px;
+    border: 1px solid #5c7fa3;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: #305d8c;
+}
+
+.white.padding:hover {
+    background-color: #1268ae;
+    transition: 0.3s;
+}
+
+.about-section 
+{
+    width: 70%;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.about-section h3
+ {
+    color: #164a80;
+    font-size: 30px;
+    border-bottom: 2px solid #d5e5ff;
+    padding-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.about-content img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #d5e5ff;
+}
+
+.about-text {
+    width: 75%;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.about-text a {
+    display: inline-block;
+    background-color: #1268ae;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.about-text a:hover {
+    background-color: #164a80;
+    transition: 0.3s;
+}
+.skills-section 
+{
+    width: 70%;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 25px;
+}
+.skills-section h3 
+{
+    color: #164a80;
+    font-size: 30px;
+    border-bottom: 2px solid #d5e5ff;
+    padding-bottom: 20px;
+}
+
+.skills-section > p {
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.skills-container {
+    display: flex;
+    gap: 20px;
+}
+.skill-card {
+    width: 25%;
+    background-color: #f7faff;
+    padding: 25px;
+    border: 1px solid #d5e5ff;
+    border-radius: 15px;
+}
+.skill-card h4 {
+    color: #1268ae;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.skill-card p
+ {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.skill-card:hover 
+{
+    background-color: #e8f2ff;
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.experience-section
+ {
+    width: 70%;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 25px;
+}
+.experience-section h3
+ {
+    color: #164a80;
+    font-size: 30px;
+    border-bottom: 2px solid #d5e5ff;
+    padding-bottom: 20px;
+}
+.experience-card
+ {
+    background-color: #f7faff;
+    padding: 30px;
+    margin-top: 30px;
+    border: 1px solid #d5e5ff;
+    border-left: 5px solid #1268ae;
+    border-radius: 15px;
+}
+.experience-top 
+{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.experience-top img
+ {
+    width: 95px;
+    height: 95px;
+    border: 2px solid #d5e5ff;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+}
+.experience-top h4
+ {
+    font-size: 20px;
+    color: #102b4e;
+    margin-bottom: 15px;
+}
+.experience-top h5
+ {
+    font-size: 18px;
+    color: #1268ae;
+    margin-bottom: 15px;
+}
+.experience-top p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.experience-card > p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-top: 20px;
+}
+.experience-card:hover {
+    background-color: #e8f2ff;
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.contact-section
+ {
+    width: 70%;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: #1d4b7d;
+    border-radius: 20px;
+    color: white;
+}
+.contact-section h2 
+{
+    font-size: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #6684a5;
+}
+.contact-section p 
+ {
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.contact-links 
+{
+    display: flex;
+    gap: 15px;
+}
+.contact-links a  
+{
+    color: white;
+    text-decoration: none;
+    background-color: #35628e;
+    padding: 15px 20px;
+    border: 1px solid #6684a5;
+    border-radius: 12px;
+}
+.contact-links a:hover 
+{
+    background-color: #1268ae;
+    transition: 0.3s;
+}
